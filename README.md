@@ -1,4 +1,4 @@
-# Manga_slayer
+# Manga Slayer
 
 A replica of MangaSlayer, an Arabic manga reading application.
 
@@ -25,4 +25,4 @@ You can download the Android app from the [releases section](https://github.com/
 ## Disclaimer:
 This android app is a fan-made replica and is not affiliated with the official MangaSlayer application. All manga content is sourced from publicly available online manga websites.
 
-Enjoy your manga reading experience with Manga_slayer!
+Enjoy your manga reading experience with Manga Slayer!
