@@ -1,0 +1,52 @@
+$color-primary : #6655e8;
+$text-primary : #444444;
+$text-color:#444444;
+$font-main: 'book-man', sans-serif;
+
+$color-light:rgba(255, 255, 255, 0.8);
+
+$mouse-300: 'Glacial Indifference', 'Open Sans', sans-serif;
+$font-regular: 'Glacial Indifference', 'Open Sans', sans-serif;
+$font-bold: 'Glacial Indifference bold', 'Open Sans', sans-serif;
+$font-title: 'title-font', 'Open Sans', sans-serif;
+
+:root { --color-font: #808291; --color-primary: #3ed2a7; --color-secondary: #ffb09f; --color-link: #a7a9b8; --color-link-hover: #181b31; --color-gradient-start: #4fda91; --color-gradient-stop: #34dbc5; --color-img-holder: #efefef; }
+
+@font-face { font-family: 'Glacial Indifference'; src: url("../fonts/GlacialIndifference-Regular.html") format("woff2"), url("../fonts/basiersquare-regular-webfont.woff") format("woff"); font-weight: normal; font-display: swap; font-style: normal; }
+
+@font-face { font-family: 'Glacial Indifference bold'; src: url("../fonts/GlacialIndifference-Bold.html") format("woff2"), url("../fonts/GlacialIndifference-Bold.woff") format("woff"); font-weight: bold; font-display: swap; font-style: normal; }
+
+@font-face {
+    font-family: 'title-font';
+    src: url("../fonts/cerebri-sans.woff") format("truetype");
+}
+
+
+
+@mixin shado-1(){
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+@mixin shado-3 {
+    box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+}
+@mixin shado-4(){
+    box-shadow:  0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35);
+}
+
+@mixin shado-5(){
+    box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+}
+
+@mixin card-1(){
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius:2px;
+}
+
+@mixin big-padding(){
+    padding: 50px;
+    @media screen and (max-width: 940px){
+        padding: 30px 10px;
+    }
+    
+}

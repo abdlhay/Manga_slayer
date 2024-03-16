@@ -1,0 +1,105 @@
+footer{
+  background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+  background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+  background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+
+    padding: 50px !important;
+      @include big-padding();
+
+    @media screen and (max-width: 600px){
+      padding-bottom: 0px !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+    @media screen and (max-width: 991px){
+      padding-bottom: 50px !important;
+    }
+    .content-ro{
+        color: #FFF;
+        margin-top: 20px;
+        h2{
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .footer-contact{
+            .address-row{
+                display: flex;
+                margin-top: 10px;
+                .icon{
+                    padding: 15px;
+                }
+                .detail{
+                    p{
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+        .footer-links{
+
+            ul{
+                margin-bottom: 15px;
+                li{
+                    float: left;
+                    width: 50%;
+                    font-weight: 300;
+                }
+            }
+        }
+        .footer-form{
+          p{
+            font-weight: 300;
+          }
+        }
+        .form-card{
+            margin-top: -221px;
+            @include shado-1();
+              @media screen and (max-width: 600px){
+                margin-top: 10px;
+              }
+            .form-title{
+                 padding: 20px;
+                background-color: #f9f9f9;
+                h4{
+                    margin-bottom: 0px;
+                    font-weight: 600;
+                    color: #444;
+                    text-align: center;
+                }
+            }
+            background-color: #fff;
+            .form-body{
+                padding: 20px;
+                border-top: 1px solid #cccccc5;
+                input{
+                    border-radius: 0px;
+                    height: 47px;
+                }
+            }
+
+        }
+    }
+    .footer-copy{
+        padding: 15px 0px;
+        color: #FFF;
+        a{
+            color: #ccc;
+        }
+        .socila-link{
+          @media screen and (max-width: 991px){
+            margin-top: 20px;
+          }
+            ul{
+                float: right;
+                li{
+                    float: left;
+                    padding: 0px 20px;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

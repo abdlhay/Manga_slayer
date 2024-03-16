@@ -1,0 +1,53 @@
+.slider{
+    @include big-padding();
+    text-align: center;
+    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    padding-top: 100px;
+    padding-bottom: 80px;
+    .image-part{
+        text-align: center;
+        img{
+            max-width: 450px;
+        }
+
+    }
+    .text-part{
+        padding-top: 48px;
+        text-align: left;
+
+        h1{
+            font-weight: 400;
+            font-size: 3.5rem;
+            margin-bottom: 25px;
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+        .btn{
+            margin-top: 30px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 8px 30px;
+            border-radius: 50px;
+            color: #fff;
+
+        }
+        @media screen and (max-width: 991px){
+          padding-top: 80px;
+            h1{
+              font-size: 2.5rem !important;
+            }
+        }
+    }
+    .down-row{
+      margin-top:30px;
+      img{
+        width: 220px;
+        margin-right: 20px;
+      }
+    }
+}

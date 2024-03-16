@@ -1,0 +1,78 @@
+.features{
+    @include big-padding();
+    .feature-row{
+        margin-top: 30px;
+        .feature-col{
+            background-color: #FFF;
+            padding: 40px 30px;
+            margin-bottom: 30px;
+            text-align: center;
+             @include shado-4();
+            i{
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+                &::before {
+                  color: #fc73b4;
+                  background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
+                  background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
+                  background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+                  -webkit-background-clip: text;
+                  background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+            }
+            &:hover{
+                @include shado-1();
+            }
+            border-bottom: 2px solid rgba(60, 8, 118, 0.8) ;
+        }
+    }
+    .feat-detail{
+
+    }
+    .feat-image{
+
+    }
+}
+
+.feature-2{
+    background-color: #faf6fb;
+    @include big-padding();
+    padding-top: 80px;
+    .feat-detail{
+        .fet-det-row{
+          margin-bottom: 40px;
+          h1{
+            font-size: 2.5rem;
+            font-weight: 300;
+          }
+          .count-cov{
+              width:90px;
+              height: 90px;
+              background-color: #FFF;
+              margin: auto;
+              text-align: center;
+              font-weight: 400;
+              font-size: 2.5rem;
+              border-radius: 50px;
+              box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+              padding-top: 19px;
+              margin-top:8px;
+              color: #f5378e;
+          }
+          &:hover{
+            .count-cov{
+              background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+              background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+              background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+              background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+              box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
+              color: #FFF;
+            }
+          }
+          .feat-image{
+            text-align: center;
+          }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.testimonial-cover{
+  z-index: 999;
+  margin-top: 100px;
+  position: relative;
+   .test-container{
+        @include big-padding();
+        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1), 0 5px 20px rgba(0, 0, 0, 0.1);
+
+       @media screen and (max-width: 940px){
+           margin-top: 0px;
+       }
+       background-color: #FFF;
+       .test-row{
+           margin-top: 20px;
+           .test-key{
+               text-align: center;
+               padding: 15px;
+               img{
+                   width: 70px;
+                   border-radius: 50%;
+               }
+               h5{
+                   font-size: .95rem;
+                   margin-top: 10px;
+                   color: #444;
+               }
+               a{
+                   color: #3273e7;
+
+                   font-size: .9rem;
+               }
+               p{
+                   margin-top: 10px;
+                   font-size: .84rem;
+                   line-height: 30px;
+               }
+           }
+       }
+    }
+}
+
+.color-cover{
+    background-color: #ffffff;
+    height: 500px;
+    margin-top: -400px;
+}

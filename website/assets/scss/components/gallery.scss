@@ -1,0 +1,15 @@
+.image-gallery{
+  background-color: #faf6fb;
+  @include big-padding();
+}
+.owl-item{
+  padding: 8px;
+  img{
+    @include card-1();
+    background-color: #fff;
+    padding: 5px;
+  }
+}
+.owl-theme{
+  overflow: hidden;
+}

@@ -1,0 +1,37 @@
+/* =======================================================================
+Template Name: Youtubers
+Author:  SmartEye Technologies
+Author URI: www.smarteyeapps.com
+Version: 1.0
+coder name:Prabin Raja
+Description: This Template is created for Youtubers
+======================================================================= */
+
+/* ===================================== Import Less ================================== */
+@import 'variable';
+/* ===================================== Basic CSS ==================================== */
+@import 'base/basic_setup';
+
+/* ===================================== Herader CSS ==================================== */
+@import 'components/header';
+
+/* ===================================== Slider CSS ==================================== */
+@import 'components/slider';
+
+/* ===================================== Slider CSS ==================================== */
+@import 'components/about';
+
+/* ===================================== Features CSS ==================================== */
+@import 'components/features';
+
+/* ===================================== Design CSS ==================================== */
+@import 'components/pricing';
+
+/* ===================================== Update CSS ==================================== */
+@import 'components/gallery';
+
+/* ===================================== Review CSS ==================================== */
+@import 'components/review';
+
+/* ===================================== Footer CSS ==================================== */
+@import 'components/footer';

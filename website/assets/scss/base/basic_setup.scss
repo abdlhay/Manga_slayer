@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444;
+}
+
+a:hover {
+    color: #444;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.cp {
+    cursor: pointer
+}
+html,body{
+    height: 100%;
+}
+p {
+    margin-bottom: 0px;
+    width: 100%;
+}
+.no-padding {
+    padding: 0px;
+}
+
+.no-margin {
+    margin: 0px;
+
+}
+.hid{
+    display: none;
+}
+.top-mar{
+    margin-top: 15px;
+}
+.h-100{
+    height: 100%;;
+}
+::placeholder {
+    color: #747f8a !important;
+    font-size: 13px;
+    opacity: .5 !important;
+}
+.container-fluid{
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+strong{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color:#f1f1f145 !important;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #6A6A6A;
+    overflow-x: hidden;
+
+}
+
+.session-title{
+	padding: 30px;
+	margin: 0px;
+	h2{
+		width: 100%;
+		text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+
+	}
+	p{
+		max-width: 850px;
+		text-align: center;
+		float: none;
+		margin: auto;
+	}
+	span{
+		float: right;
+		font-style: italic;
+	}
+}
+.inner-title{
+	padding: 20px;
+	padding-left: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #ccccccc4;
+    display: block;
+    padding-right: 0px;
+	h2{
+		width: 100%;
+		text-align: center;
+		font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+        border-bottom: 1px solid #863dd9;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+        width: 300px;
+	}
+	p{
+		width: 100%;
+		text-align: center;
+    }
+    .btn{
+        float: right;
+        margin-top: -38px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+}
+.page-nav{
+    padding: 40px;text-align: center;
+    padding-top: 160px;
+    ul{float: none;margin: auto;}
+
+     @media screen and (max-width: 576px){
+         padding-top: 186px;
+    }
+    @media screen and (max-width: 356px){
+         padding-top: 206px;
+    }
+    h2{
+        font-size: 36px;
+        width: 100%;
+        color: #444;
+        @media screen and (max-width: 600px){
+            font-size: 26px;
+        }
+    }
+    ul li{
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+        i{
+            width: 30px;
+            text-align: center;
+            color: #444;
+
+        }
+        a{
+            color: #444;
+        }
+    }
+}
+.btn-success{
+	background-color: #223d50;
+	border-color: #223d50;
+	&:hover{
+		background-color: #223d50 !important;
+		border-color: #223d50 !important;
+	}
+	&:active{
+		background-color: #223d50 !important;
+		border-color: #223d50 !important;
+	}
+	&:focus{
+		background-color: #223d50 !important;
+		border-color: #223d50 !important;
+		box-shadow: none !important;
+	}
+}
+.btn-primary{
+	background-color: $color-primary;
+	border-color: $color-primary;
+	&:hover{
+		background-color: $color-primary !important;
+		border-color: $color-primary !important;
+	}
+	&:active{
+		background-color: $color-primary !important;
+		border-color: $color-primary !important;
+	}
+	&:focus{
+		background-color: $color-primary !important;
+		border-color: $color-primary !important;
+		box-shadow: none !important;
+	}
+}
+.btn{
+	@include card-1();
+}
+.form-control{
+	&:focus{
+		box-shadow: none !important;
+		border:2px solid  #863dd9;
+	}
+
+}
+.btn-light{
+	background-color: #FFF;
+	color: #3F3F3F;
+}
+
+.collapse.show {
+
+    display: block !important;
+
+}
+
+.form-control:focus{
+	box-shadow: none;
+	border: 2px solid #863dd9 !important;
+}
+.form-control{
+	background-color: #F8F8F8;
+	margin-bottom: 20px;
+	&:focus{
+		background-color: #FFF;
+		border-color: #CCC;
+	}
+}
+.container{
+    max-width: 1170px;
+    @media screen and (max-width: 575px){
+        padding: 10px 15px;
+    }
+}
