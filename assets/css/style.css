@@ -370,6 +370,13 @@ html {
   color: white;
 }
 
+@media screen and (max-width: 600px) {
+  .download-button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 
 /* ===================================== Design CSS ==================================== */
 #generic_price_table .price-row {
