@@ -78,6 +78,18 @@ body {
   opacity: 1;
 }
 
+.disclaimer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+  color: #555;
+}
+.disclaimer strong {
+  color: #000;
+}
 
 @media screen and (max-width: 768px) {
   .landing-page {
